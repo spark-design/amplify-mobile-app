@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamodb",
+  "tableName": "userdata",
+  "partitionKey": {
+    "fieldName": "trips",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
